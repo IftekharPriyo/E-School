@@ -11,18 +11,84 @@
     margin-top: 0;
     margin-left: 5px;
     padding: 8px 20px;
+    color: white;
 }
 
 .header-img{
     padding: 30px;
 }
 
-h5{
+.header-info h5{
     color: #FD511A;
 }
 
-h1{
+.headder-info h1{
     font-size: 40px;
     font-weight: bold  ;
     line-height: 1.4;
 }
+
+
+.box{
+    margin-top: 30px;
+    height: 230px;
+    width: 230px;
+    border: none;
+    background-color: #f8fffb;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px lightgrey;
+}
+
+.box1{
+    margin-top: 30px;
+    height: 230px;
+    width: 230px;
+    border: none;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+
+
+.img-info{
+    width: 66px;
+    height: 75px;
+    margin: 40px 82px;
+}
+
+/* .courses{
+    margin-top: 30px;
+} */
+
+.courses img{
+    width: 311px;
+    height: 214px;
+    margin-left: 19px;
+    margin-top: 20px;
+}
+
+
+.card-footer{
+    margin-top: none;
+    background-color: white;
+    border-top: none;
+}
+
+.card{
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
+.courses{
+    margin-top: 100px;
+}
+
+.courses h3{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.card-body{
+    padding-left: 30px;
+}
+
