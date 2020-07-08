@@ -20,17 +20,20 @@
 
 .header-info h5{
     color: #FD511A;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
 }
 
 .headder-info h1{
     font-size: 40px;
     font-weight: bold  ;
-    line-height: 1.4;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 .box{
-    margin-top: 30px;
+    margin-top: 90px;
     height: 230px;
     width: 230px;
     border: none;
@@ -38,6 +41,13 @@
     border-radius: 10px;
     box-shadow: 5px 5px 30px lightgrey;
 }
+
+
+.box:hover{
+    background-color: white;
+    box-shadow: 10px 10px 5px lightgrey;
+}
+
 
 .box1{
     margin-top: 30px;
@@ -56,9 +66,9 @@
     margin: 40px 82px;
 }
 
-/* .courses{
+.courses{
     margin-top: 30px;
-} */
+}
 
 .courses img{
     width: 311px;
@@ -92,3 +102,63 @@
     padding-left: 30px;
 }
 
+.footer-icon img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-icon small{
+    font-size: 15px;
+}
+
+/* .testimonial{
+    padding-top: 70px;
+} */
+
+.testimonial img{
+    height: 90px;
+    width: 110px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.testimonial-texts{
+    margin-top: 40px;
+    /* margin-right: 30px; */
+}
+
+.testimonial{
+    margin-top: 100px;
+}
+
+.testimonial h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+footer ul li{
+    list-style: none;
+    /* color: white; */
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.footer-preference{
+    margin-top: 70px;
+    background-color:#282531;
+}
+
+.footer-preference p{
+    color: white;
+    padding-top: 30px;
+}
+
+.footer-copyright{
+    color: white;
+}
